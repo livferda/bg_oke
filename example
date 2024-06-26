@@ -1,0 +1,18 @@
+# Authentication
+tenancy_ocid         = "ocid1.tenancy.oc1..aaaaaaaaff2avv7uvhyylobvvjbjbmhaugejqbdgscj2us2vwfhjtpltfkjq"
+user_ocid            = "ocid1.user.oc1..aaaaaaaawqrrjuo27rvjmxhjb73jt2pmy2bqyodcvrbhywo6vtkbgtkcxk6q"
+fingerprint          = "41:df:ac:4a:56:cd:b1:a6:44:d5:da:c2:9c:d3:96:23"
+private_key_path     = "\.oci\oci_api_key_public.pem"
+
+# Region
+region = "us-ashburn-1"
+
+# Compartment
+compartment_ocid = "ocid1.compartment.oc1..aaaaaaaagssmt4qk4u65zdj3osmx4pa54ftmanxk4262xcgbafhlqvpnxina"
+
+# OCI  
+oci_username         = "ociobtnas/oracleidentitycloudservice/olivia.ferda@oracle.com"
+oci_user_authtoken     = "HE0MN5z81Ae2jncwj]5:"
+
+# Set a specific name for your deployments to prefix with a tag.
+app_name = "oketest"
