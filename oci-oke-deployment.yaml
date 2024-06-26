@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: sample-oke-bg-app
-  progressDeadlineSeconds: 300
+  progressDeadlineSeconds: 180
   replicas: 3
   template:
     metadata:
@@ -16,7 +16,7 @@ spec:
       containers:
         - name: sample-oke-bg-app
           # enter the path to your image, be sure to include the correct region prefix
-          image: us-ashburn-1.ocir.io/ociobtnas/bgoke:${BUILDRUN_HASH}
+          image: us-ashburn-1.ocir.io/ociobtnas/mr-devops-bg-oke-manifest:${BUILDRUN_HASH}
           imagePullPolicy: Always
           ports:
             - containerPort: 80
