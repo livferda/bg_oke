@@ -16,7 +16,7 @@ spec:
       containers:
         - name: sample-oke-bg-app
           # enter the path to your image, be sure to include the correct region prefix
-          image: 	iad.ocir.io/ociobtnas/bgoke:${BUILDRUN_HASH}
+          image: iad.ocir.io/ociobtnas/bgoke:${BUILDRUN_HASH}
           imagePullPolicy: Always
           ports:
             - containerPort: 80
